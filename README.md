@@ -34,13 +34,13 @@ For more information about API credentials see our [Account Credentials](https:/
 To install the required packages for this app, run the command:
 
 ```sh
-pip install -r reaquirements.txt
+mvn clean install
 ```
 
 Use the following command to run the application:
 
 ```sh
-python main.py
+mvn spring-boot:run
 ```
 
 # Environmental Variables
